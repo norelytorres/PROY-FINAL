@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGUA MENTA</title>
+    <!-- css bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- css personal -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- iconos de fontawesome -->
+    <script src="https://kit.fontawesome.com/562d327e55.js" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+    <!-- menu y el logo -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="menu">
+        <div class="container-fluid">
+            <!-- logo -->
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="" id="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <!-- para alinear el menu de enlaces a la derecha
+             <ul class="navbar-nav mx-auto me-2 navbar-nav-scroll">-->
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+              <!-- productos -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="accesorios para celular.html">Accesorios para celulares</a></li>
+                  <li><a class="dropdown-item" href="Accesorios para prandas de vestir.html">Accesorios para prendas de vestir</a></li>
+                </ul>
+              </li>
+
+              <!-- servicios -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#domicilio">Domicilios</a></li>
+                  <li><a class="dropdown-item" href="#pagos">Pago Online</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                </ul>
+              </li>
+             <!-- contacto -->
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+             <!-- simulador -->
+              <li class="nav-item">
+                <a class="nav-link" href="simulador.html">Simulador</a>
+              </li>
+
+              <!-- enlaces redes sociales -->
+              <li class="nav-item">
+                <a class="nav-link" href="https://wa.me/3245890322?text=Atenci%C3%B3n%20al%20cliente!!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://instagram.com/cases.aguamenta?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              </li>
+              <li class="nav-item">
+                <!-- <a class="nav-link" href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a> -->
+              </li>
+            </ul>
+            
+
+             <a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Agendar Cita</a>
+            <!-- <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- slider de images -->
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/WhatsApp Image 2023-09-09 at 3.16.14 PM.jpeg" class="d-block w-100 alto-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Carcasas Elegantes</h5>
+              <p>Hermosos y elegantes diseños, variadas formas y diseños.  </p>
+              <div class="boton-comprar">
+                <a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/carcasa.jpeg" class="d-block w-100 alto-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Carcasas juveniles</h5>
+              <p>Diseños variados con una amplia gama de colores, juveniles y atractivos.  </p>
+              <div class="boton-comprar">
+                <a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/WhatsApp Image 2023-09-09 at 3.37.52 PM (1).jpeg" class="d-block w-100 alto-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Accesorios para prendas de vestir femenina</h5>
+              <p>Hermosas carteras, bolsos y correas con diseños de tendencia, variados colores y tamaños.  </p>
+              <div class="boton-comprar">
+                <a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="1000">
+            <img src="img/correas.masc..avif" class="d-block w-100 alto-img" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Correas masculinas</h5>
+              <p>Diseños de modas con variados diseños y tamaños.  </p>
+              <div class="boton-comprar">
+                <a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- fin slider -->
+
+      <!-- novedades - card groups -->
+      <div class="row row-cols-1 row-cols-md-3 g-4 p-5" id="novedades">
+        <h2 class="titulo">Novedades</h2>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen11-1026162783 - Ana Sanchez.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ropa</h5>
+              <p class="card-text">Camisa manga zisa, enresortada en el área de la cintura para estilizar a la figura femenina. </p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen4_1026162783 - Ana Sanchez.JPG" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Carteras de uso diario</h5>
+              <p class="card-text">Carteras cómodas y prácticas para el día a día, con una gran variedad de modelos y colores. </p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen13_1026162783 - Ana Sanchez.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Camisetas unixes</h5>
+              <p class="card-text">Camisetas muy cómodas en variados estilos y tallas.</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen3_1026162783 - Ana Sanchez.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Correas</h5>
+              <p class="card-text">Surtidos colores y diseños para todo tipo de prendas de vestir.</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen14_1026162783 - Ana Sanchez.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Vikinis femeninos</h5>
+              <p class="card-text">Luce hermosa y sexual con variados diseños y colores.</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="img/Imagen12_1026162783 - Ana Sanchez.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pijimas en satin</h5>
+              <p class="card-text">Te hace sentir fresca y sexual a la hora de dormir.</p>
+              
+            </div>
+            <div class="card-footer">
+              <small class="text-body-secondary"><a href="https://wa.me/3245890322?text=AgendarCitar!!" target="_blank" class="btn btn-warning">Comprar</a></small>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- call action - promoción-->
+      <div class="p-5 mb-4 bg-body-tertiary rounded-3" id="jumbotron">
+        <div class="container-fluid py-5">
+          <h1 class="display-5 fw-bold" id="pagos">Promoción y pagos</h1>
+          <p class="col-md-8 fs-4">
+            Caja sorpresa cuenta con 3 productos de nueva colección con un precio asequible.  Promoción para clientes fieles y constantes, se realiza una vez al mes a través de rifas.
+          </p>
+          <p class="col-md-8 fs-4">
+            Realiza tus pagos onlie con PSE o si prefieres lo puedes realizar contra entrega.
+          </p>
+
+
+          <h1 class="display-5 fw-bold" id="domicilio">Domicilios</h1>
+          <p class="col-md-8 fs-4">
+            Estas ubicado enla zona centro de Caldas o cerca a cualquier estación del metro dentro de la misma 
+            área de torniquete, el domicilio es !!!gratis!!!. 
+          </p>
+          <p class="col-md-8 fs-4">
+           Domicilios solamente en área metropolitana. 
+          </p>
+          <button class="btn btn-primary btn-lg notica">Solicitar información</button>
+        </div>
+      </div>
+
+      <main>
+        <!-- videos -->
+        <div class="container" id="video">
+          <h2 class="display-5 fw-bold titulo">Video</h2>
+          <div class="card h-100">
+            <iframe width="100%" height="500" src="https://www.youtube.com/embed/87zVnwyNJjc?si=eZw1EmgMG2uNmiWV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+          </div>
+
+      <div class="container" id="mapa">
+        <h2 class="display-5 fw-bold titulo">Mapa</h2>
+        <div class="card h-100">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.315369491039!2d-75.63906522623387!3d6.088147128071859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e468780ba7d4051%3A0xec0fcf6faaf7ab64!2sCALDAS%20ANTIQUIA!5e0!3m2!1ses-419!2sco!4v1696091667361!5m2!1ses-419!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+    </main>
+    
+      <!-- footer - BEM en html y css -->
+      <footer id="page-footer">
+        <div class="ftcontainer">
+          <div class="footer__menu">
+            <figure>
+              <img src="/img/logo.png" alt="" class="footer__logo">
+            </figure>
+            <p class="ft-social-row">
+              <a class="ft-social" href="https://wa.me/3245890322?text=Atenci%C3%B3n%20al%20cliente!!" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+              <a class="ft-social" href="https://instagram.com/cases.aguamenta?igshid=MzRlODBiNWFlZA==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </p>
+          </div>
+          <!-- horarios -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Horarios</h4>
+            <span class="footer__info">
+              Lunes a Viernes: 8:00 am a 6:00 pm | Sábados: 9:00 am a 5:00 pm
+            </span>
+          </div>
+          <!-- Enlaces -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Enlaces</h4>
+            <ul class="ft-link">
+              <li class="footer__link">
+                <a href="#" target="_blank"  class="ft-social">Inicio</a>
+              </li>
+              <li class="footer__link">
+                <a href="nosotros.html" target="_blank"  class="ft-social">Nosotros</a>
+              </li>
+              <li class="footer__link">
+                <a href="condiciones.html" target="_blank"  class="ft-social">Términos y condiciones</a>
+              </li>
+            </ul>
+          </div>
+          <!-- contactos -->
+          <div class="footer__menu">
+            <h4 class="footer__title">Contactos</h4>
+            <p class="footer__info">
+              <i class="fa-solid fa-envelope"></i>
+              Email: Tuboutique1021@gmail.com
+            </p>
+            <p class="footer__info">
+              <i class="fa-solid fa-mobile"></i>
+              Celular: 3245890322
+            </p>
+            <p class="footer__info">
+              <i class="fa-solid fa-location-dot"></i>
+              Dirección: Caldas-Antioquia
+            </p>
+          </div>
+        </div>
+        <div class="footer-credits">
+          &copy; 2023. Agua Menta: <a href="#" target="_blank">Norely Torres Orozco</a>
+        </div>
+
+      </footer>
+
+    <!-- js bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+</body>
+</html>
